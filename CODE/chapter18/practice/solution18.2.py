@@ -1,0 +1,31 @@
+from tkinter import *
+import math
+window = Tk()
+window.title('计算器') 
+
+Button(window,text="=",width=10).grid(row=4, column=4,columnspan=2)
+Button(window,text='AC',width=3).grid(row=1, column=4)
+Button(window,text='C',width=3).grid(row=1, column=5)
+Button(window,text="+",width=3).grid(row=4, column=3)
+Button(window,text="x",width=3).grid(row=2, column=3)
+Button(window,text="-",width=3).grid(row=3, column=3)
+Button(window,text="÷",width=3).grid(row=1, column=3) 
+Button(window,text="%",width=3).grid(row=4, column=2)
+Button(window,text="7",width=3).grid(row=1, column=0)
+Button(window,text="8",width=3).grid(row=1, column=1)
+Button(window,text="9",width=3).grid(row=1, column=2)
+Button(window,text="4",width=3).grid(row=2, column=0)
+Button(window,text="5",width=3).grid(row=2, column=1)
+Button(window,text="6",width=3).grid(row=2, column=2)
+Button(window,text="1",width=3).grid(row=3, column=0)
+Button(window,text="2",width=3).grid(row=3, column=1)
+Button(window,text="3",width=3).grid(row=3, column=2)
+Button(window,text="0",width=3).grid(row=4, column=0)
+Button(window,text=".",width=3).grid(row=4, column=1)
+Button(window,text="(",width=3).grid(row=2, column=4)
+Button(window,text=")",width=3).grid(row=2, column=5)
+Button(window,text="√",width=3).grid(row=3, column=4)
+Button(window,text="x²",width=3).grid(row=3, column=5)
+
+
+window.mainloop()

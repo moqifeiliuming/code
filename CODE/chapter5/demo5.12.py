@@ -1,0 +1,5 @@
+print("1+2+3+4+5".split("+"))
+list = '/usr/local/nginx'.split('/')
+print(list)
+print("C:" + "\\".join(list))
+print("I like python".split())
